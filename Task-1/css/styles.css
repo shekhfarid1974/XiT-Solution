@@ -1,0 +1,227 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.img_logos_Navber {
+  width: 56px;
+  height: 17px;
+}
+
+    .orange-bg{
+        background-color: #fceae8;
+        border-radius: 10px;
+    }
+    .carousel-item{
+        padding: 20px 40px;
+    }
+    .price{
+        color: #FF136F;
+    }
+    .buy-now-button{
+        background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 4px 14px;
+        cursor: pointer;
+    }
+    .cat1, .cat2, .cat3{
+        /* padding: 10px 30px;
+        border-radius: 10px; */
+    }
+    .cat1{
+        background-color: orange;
+    }
+    .cat2{
+        background-color: orchid;
+    }
+    .cat3{
+        background-color: blue;
+    }
+    .categories h1{
+        color: white;
+    }
+    .categories img{
+        width: 100px;
+    }
+    .card{
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px lightgray;
+    }
+    .card-footer{
+        background-color: white;
+        border-top: none;
+    }
+    #subscribe{
+        height: 300px;
+    }
+    #subscribe h6{
+        color: gray;
+    }
+    footer{
+        text-align: center;
+    }
+    .six_img{
+    width: 91px;
+    height: 70px;
+    margin-left: 100px;
+    
+    }
+
+    /* ____________________________________position section_______________________________ */
+/* .grid__position__section__title{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
+    
+
+.grid__position__section__title {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Default: One column on mobile */
+}
+
+/* For tablets */
+@media (min-width: 576px) {
+  .grid__position__section__title {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on tablets */
+  }
+}
+
+/* For larger screens */
+@media (min-width: 992px) {
+  .grid__position__section__title {
+    grid-template-columns: repeat(3, 1fr); /* Three columns on larger screens */
+  }
+}
+
+
+
+  
+      /* ___________________________CEO________________________________ */
+    .grid__position__section {
+        display: grid;
+        grid-gap: 10px; /* Adjust gap between grid items */
+      }
+      
+      /* Media Query for Tablets (768px) */
+      @media only screen and (min-width: 481px) and (max-width: 1024px) {
+        .grid__position__section {
+          grid-template-columns: repeat(2, 1fr); /* Display two columns on tablets */
+        }
+      }
+      
+      /* Media Query for PCs (1025px and above) */
+      @media only screen and (min-width: 1025px) {
+        .grid__position__section {
+          grid-template-columns: repeat(4, 1fr); /* Display three columns on PCs */
+        }
+      }
+      
+
+      /* _____________________________________Galary_____________________________________________________ */
+
+      /* Default grid styles */
+      .grid__setup_skl {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      
+      }
+      
+      /* Media query for tablets */
+      @media (max-width: 768px) {
+        .grid__setup_skl {
+          grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns for tablets */
+        }
+      }
+      
+      /* Media query for mobile devices */
+      @media (max-width: 480px) {
+        .grid__setup_skl {
+          grid-template-columns: repeat(1,1fr); /* Single column for mobile devices */
+        }
+      }
+
+      .galary__img{
+        width: 356px;
+      }
+      
+
+  
+
+  .dropdown___button{
+    margin-left: 198px;
+    background-color: red ;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 14px;
+    cursor: pointer;
+  
+  }
+  .medialogo{
+   
+    padding: 10px 12px 10px 12px;
+    
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+ 
+  }
+  .img_ssee{
+    background-color: #FFFFFF;    
+  }
+
+  
+  .slslslsl{
+    width: Hug (129.11px)px;
+height: Hug (44px)px;
+padding: 10px 15px 10px 12px;
+gap: 8px;
+border-radius: 6px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid #FFFFFF
+
+  }
+  .logos{
+    border:  3px  rgb(37, 36, 35);
+    border-radius: 1px;
+    padding: 2px;
+    box-shadow: 5px 5px 10px  rgb(169, 156, 156);
+}
+ /* __________________________about section _______________________________ */
+ .pading__setup{
+  margin-top: 115px;
+
+
+}
+.col__md_six{
+  position: relative;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 15px;
+}
+
+
+ .about_text__style{
+  
+
+  padding-top: 105px;
+  padding-bottom: 88px;
+ }
+ /* __________________________about section _______________________________ */
+
+ /* _________________________footer section ___________________________ */
+.logos_Footer{
+  border:  3px  rgb(37, 36, 35);
+ 
+  padding: 6px;
+  box-shadow: 5px 5px 10px  rgb(169, 156, 156);
+}
+
+
+ /* _________________________footer section ___________________________ */
